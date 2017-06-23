@@ -1,0 +1,209 @@
+
+body {
+  font-size: 16px;
+  font-family: helvetica;
+}
+
+h1 {
+  font-size: 2.75rem;
+  font-weight: bold;
+  color: dimgrey;
+}
+
+h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: dimgrey;
+}
+
+header {
+  height: 4rem;
+  padding-left: 1.5rem;
+}
+
+.navbrand {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.logo img {
+  height: 3rem;
+}
+
+.navmenu ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.navmenu ul li {
+  padding: 1rem;
+}
+
+.bannercontainer {
+  background-color: lightgrey;
+  height: 35rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bannercontainer img {
+  /*height: 20rem;*/
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.bannertext {
+  margin: 8rem 6rem 8rem 2rem;
+}
+
+.button {
+  height: 1.5rem;
+  width: 40%;
+  background-color: dimgrey;
+  color: white;
+  text-align: center;
+  padding: .5rem
+}
+
+/* Information Section */
+
+.informationcontainer {
+  display: flex;
+  justify-content:flex-end;
+}
+
+.information-left img {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.information-text {
+  /*width: 60%;*/
+  padding: 0rem 1.5rem;
+}
+
+.information-text p {
+  padding: 1.5rem 0;
+}
+
+.information-right {
+  border: 1px lightgrey solid;
+}
+
+.information-card {
+  display: flex;
+  width: 27rem;
+  height: 10.5rem;
+  border: 1px lightgrey solid;
+}
+
+.information-card:nth-child(3n+3) {
+  background-color: lightgrey;
+}
+
+.information-card img {
+  width: 35%;
+  padding: 1rem;
+}
+
+.card-detail {
+  padding: 1rem;
+}
+
+.card-detail h4 {
+  padding: .5rem 0rem;
+}
+
+.card-detail p {
+  color: cornflowerblue;
+}
+
+.information-text p {
+  padding-top: 1.5rem 0;
+}
+
+/*Learning Section*/
+
+.learningcontainer {
+  background-color: lightgrey;
+}
+
+.section-heading {
+  padding: 2rem 0rem;
+  text-align: center;
+}
+
+.learning-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*padding: 2rem;*/
+}
+
+.learning-card {
+  margin: 0rem 2rem 2rem 2rem;
+  background-color: white;
+  width: 26%;
+}
+
+.learning-card img {
+  width: 100%;
+}
+
+.learning-card p {
+padding: .5rem 0rem;
+}
+
+.learning-card-detail {
+  padding: 1rem 1rem 1.5rem 1rem;
+}
+
+
+/*thesis section*/
+.thesiscontainer {
+  padding-left: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.thesis-subcontainer {
+  display: flex;
+  justify-content:flex-end;
+}
+
+.information-left video {
+  width: 60%;
+  padding: 2rem 1.5rem;
+}
+
+.thesis-text {
+  /*width: 60%;*/
+  padding: 0rem 1.5rem;
+}
+
+/*footer section*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 3rem;
+  padding: 1.5rem;
+  border: 1px lightgrey solid;
+}
+
+.footer-right ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-right ul li {
+  padding-left: 1rem;
+}
