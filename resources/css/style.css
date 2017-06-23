@@ -77,12 +77,19 @@ header {
 
 .informationcontainer {
   display: flex;
-  justify-content:flex-end;
+  justify-content:space-between;
+}
+
+.information-left {
+  width: 60%;
+  padding: 2rem 1.5rem;
 }
 
 .information-left img {
-  width: 60%;
-  padding: 2rem 1.5rem;
+  /*width: 60%;
+  padding: 2rem 1.5rem;*/
+  display: block;
+  max-width: 100%;
 }
 
 .information-text {
@@ -96,6 +103,7 @@ header {
 
 .information-right {
   border: 1px lightgrey solid;
+  /*width: 40%;*/
 }
 
 .information-card {
@@ -175,17 +183,52 @@ padding: .5rem 0rem;
 
 .thesis-subcontainer {
   display: flex;
-  justify-content:flex-end;
+  justify-content:space-between;
 }
 
-.thesis-left video {
+.thesis-left {
   width: 60%;
   padding: 2rem 1.5rem;
+
+}
+.thesis-left video {
+  display: block;
+  max-width: 100%;
+  /*width: 60%;
+  padding: 2rem 1.5rem;*/
 }
 
 .thesis-text {
   /*width: 60%;*/
   padding: 0rem 1.5rem;
+}
+
+/*.thesis-right {
+  width: 40%;
+}*/
+
+.thesis-information-card {
+  display: flex;
+  width: 27rem;
+  height: 10.5rem;
+  /*border: 1px lightgrey solid;*/
+}
+
+.thesis-information-card:nth-child(2n+1) {
+  background-color: lightgrey;
+}
+
+.thesis-information-card img {
+  width: 35%;
+  padding: 1rem;
+}
+
+.thesis-card-detail {
+  padding: 1rem;
+}
+
+.thesis-card-detail h4 {
+  padding: .5rem 0rem;
 }
 
 /*footer section*/
@@ -206,28 +249,4 @@ footer {
 
 .footer-right ul li {
   padding-left: 1rem;
-}
-
-.thesis-information-card {
-  display: flex;
-  width: 27rem;
-  height: 10.5rem;
-  border: 1px lightgrey solid;
-}
-
-.thesis-information-card:nth-child(2n+1) {
-  background-color: lightgrey;
-}
-
-.thesis-information-card img {
-  width: 35%;
-  padding: 1rem;
-}
-
-.thesis-card-detail {
-  padding: 1rem;
-}
-
-.thesis-card-detail h4 {
-  padding: .5rem 0rem;
 }
