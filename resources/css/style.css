@@ -178,7 +178,7 @@ padding: .5rem 0rem;
   justify-content:flex-end;
 }
 
-.information-left video {
+.thesis-left video {
   width: 60%;
   padding: 2rem 1.5rem;
 }
@@ -206,4 +206,28 @@ footer {
 
 .footer-right ul li {
   padding-left: 1rem;
+}
+
+.thesis-information-card {
+  display: flex;
+  width: 27rem;
+  height: 10.5rem;
+  border: 1px lightgrey solid;
+}
+
+.thesis-information-card:nth-child(2n+1) {
+  background-color: lightgrey;
+}
+
+.thesis-information-card img {
+  width: 35%;
+  padding: 1rem;
+}
+
+.thesis-card-detail {
+  padding: 1rem;
+}
+
+.thesis-card-detail h4 {
+  padding: .5rem 0rem;
 }
