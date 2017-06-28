@@ -1,19 +1,21 @@
 
 body {
   font-size: 16px;
-  font-family: helvetica;
+  font-family: "Lato", "Helvetica", sans-serif;
 }
 
 h1 {
   font-size: 2.75rem;
   font-weight: bold;
   color: dimgrey;
+  font-family: "Oswald", "Helvetica", sans-serif;
 }
 
 h2 {
   font-size: 1.75rem;
   font-weight: bold;
   color: dimgrey;
+  font-family: "Oswald", "Helvetica", sans-serif;
 }
 
 header {
@@ -293,7 +295,8 @@ footer {
 
   .bannercontainer {
     flex-direction: column;
-    background-color: white;
+    /*background-color: white;
+    margin: .5rem;*/
   }
 
   .bannercontainer img {
@@ -303,7 +306,7 @@ footer {
   }
 
   .bannertext {
-    margin: 2rem 1rem;
+    margin: .5rem 1rem;
     background-color: lightgrey;
   }
 
@@ -313,7 +316,7 @@ footer {
 
   .button {
     height: 1.5rem;
-    width: 40%;
+    width: 95%;
     background-color: dimgrey;
     color: white;
     text-align: center;
@@ -332,9 +335,15 @@ footer {
     display: inline;
     width: 27rem;
     height: 10.5rem;
-    border: 1px lightgrey solid;
+    /*border: 1px lightgrey solid;*/
     padding: 1rem;
   }
+
+/*
+  .information-card-mobile {
+    display: block;
+    width: 100%;
+  }*/
 
   .learningcontainer {
     background-color: white;
